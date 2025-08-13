@@ -71,7 +71,7 @@ Create Machine Learning model to predict prices based on charactiristics of prop
 The methodology involved several key steps, focusing on data preprocessing, ML-Model selection, Model training , Model evaluation, and tuning
 
 1.  **Data Collection:**
-        * Datasets were downloaded from kaggle.
+       * Datasets were downloaded from kaggle.
 
 2.  **Data Cleaning:** 
        * Handling missing values, encoding categorical variables, filtering outliers.
@@ -88,18 +88,18 @@ The methodology involved several key steps, focusing on data preprocessing, ML-M
 6.  **Deployment:**
        * Developing a Streamlit app for interactive price estimation and neighborhood comparison.
 
-7.  **Insights:**
+7.  **Insights**
 
 
 ## Results & Insights
 
-Model provides accurate price predictions with acceptable error margins.
+> Model provides accurate price predictions with acceptable error margins.
 
-Neighborhood and number of bedrooms are among the most influential factors.
+> Neighborhood and number of bedrooms are among the most influential factors.
 
-Properties with amenities like parking, terrace, and pool tend to have higher prices.
+> Properties with amenities like parking, terrace, and pool tend to have higher prices.
 
-Visualization tools help users compare prices across neighborhoods with similar features.
+> Visualization tools help users compare prices across neighborhoods with similar features.
 
 
 ## How to Use the App
@@ -111,7 +111,8 @@ The app predicts the estimated market price.
 Compare your property’s price with similar properties in nearby neighborhoods.
 
 
-  **Data Analysis Tools and Libraries:**
+## Data Analysis Tools and Libraries:**
+
 * __Python__: The primary programming language for data manipulation and analysis.
 * __Pandas__:Essential for data loading, cleaning, and transformation.
 * __Matplotlib / Seaborn__: Used for creating various visualizations (bar charts, line graphs).
