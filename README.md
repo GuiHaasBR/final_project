@@ -4,10 +4,10 @@
 
 ## Introduction
 
-An analisys about real real state data from the city of Barcleona, Spain. 
+An analisys about real real state data from the city of Barcelona, Spain. 
 This project have the objetive to analize how differents indicators can influence on the price of the properties. 
 
-This project involves an analysis of real estate data from the city of Barcelona, Spain. The main objective is to explore how different property features and indicators influence the price of properties in the city, and to create a Machine Learning model capable of estimating property prices.
+This project involves an analysis of real estate data from the city of Barcelona, Spain. The main objective is to explore how different property features and indicators influence the price of properties in the city and to create a Machine Learning model capable of estimating property prices.
 
 
 - 🛠 GitHub Repository: [final_project](https://github.com/GuiHaasBR/final_project)
@@ -18,14 +18,14 @@ This project involves an analysis of real estate data from the city of Barcelona
 
 ## Datasets Used
 
- *  **Idealista Data Exploration: Barcelona Real Estate:** Web Scraping, Data Cleaning and Exploratory Data Analysis.
+ *  **Idealista Data Exploration: Barcelona Real Estate:** Web Scraping, Data Cleaning, and Exploratory Data Analysis.
 
 The dataset contains information such as:
 
 
-* **id:** Property identificator.
+* **id:** Property identifier.
 * **property_type:** Type of property.
-* **adress:** Approximated adress of property.
+* **adress:** Approximate address of property.
 * **neighborhood:** Neighborhood name.
 * **city:** City name.
 * **price:** Price in euros.
@@ -46,35 +46,29 @@ The dataset contains information such as:
 * **garden:**  Has the property a garden? (True/False).
 * **air conditioning:** Has the property air conditioning? (True/False).
 * **heating:** Has the property a heating system? (True/False).
-* **central_heating:** Is the heating system cental/individual?
+* **central_heating:** Is the heating system central/individual?
 * **heating_type:** Type of heating.
-* **consumption_in_mkw/m2_year:** Yearly consumtion of the property in mkW/m^2.
+* **consumption_in_mkw/m2_year:** Yearly consumption of the property in mkW/m^2.
 * **emissions_in_kgco2/m2_year:** Yearly emissions of the property in kgco2/m^2.
 * **orientation:** Orientation of the property.
 * **description:** Text description of the property.
 
-**Comments on the Data:**
-
-* **Main Challenges:** 
-* **Strengths:** 
-* **Weaknesses:** 
-
 ##  Business Problem & Hypothesis
 
-Create Machine Learning model to predict prices based on charactiristics of properties.
+Create Machine Learning model to predict prices based on characteristics of properties.
 
 * **Problem:** To accurately estimate the market price of properties in Barcelona using property characteristics.
-* **Hy[othesis:** Property features such as location, size, number of bedrooms, and amenities significantly affect the price.
+* **Hypothesis:** Property features such as location, size, number of bedrooms, and amenities significantly affect the price.
 
 ## Methodology
 
-The methodology involved several key steps, focusing on data preprocessing, ML-Model selection, Model training , Model evaluation, and tuning
+The methodology involved several key steps, focusing on data preprocessing, ML-Model selection, Model training , Model evaluation, and tuning.
 
 1.  **Data Collection:**
-       * Datasets were downloaded from kaggle.
+       * Datasets were downloaded from Kaggle.
 
 2.  **Data Cleaning:** 
-       * Handling missing values, encoding categorical variables, filtering outliers.
+       * Handling missing values, encoding categorical variables, and filtering outliers.
           
 3.  **Exploratory Data Analysis:**
        * Visualizing distributions, correlations, and patterns.
@@ -111,7 +105,7 @@ The app predicts the estimated market price.
 Compare your property’s price with similar properties in nearby neighborhoods.
 
 
-## Data Analysis Tools and Libraries:**
+## Data Analysis Tools and Libraries:
 
 * __Python__: The primary programming language for data manipulation and analysis.
 * __Pandas__:Essential for data loading, cleaning, and transformation.
@@ -128,9 +122,9 @@ proj-vanguard-abtest/
 ├── notebooks/                   # Python notebooks with analysis
 ├── pipelines/                   # ML pipelines
 ├── scalers/                     # ML scalers
-├── app.py                       # Executor os the App
+├── app.py                       # Executor of the App
 ├── README.md                    # This file
-└── slides                       # Url of presentation
+└── slides                       # URL of presentation
 ```
 ## 👥 Project by:
 __*Guilherme Haas*__
